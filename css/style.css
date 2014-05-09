@@ -262,6 +262,15 @@ textarea{
 	text-align:center;
 }
 
+#thankYou {
+	display: none;
+
+}
+
+#thankYou p {
+	color: #4DB6C4;
+}
+
 @media only screen and (min-width:800px) {
 	textarea{width:30em;}
 	.formtext{width:30em;}
