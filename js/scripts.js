@@ -2,6 +2,8 @@ dataslide = 1;
 
 jQuery(document).ready(function ($) {
 
+    
+
 
     $(window).stellar();
 

@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/animate.css">
 	<link rel="icon" type="image/png" href="favicon.ico">
 	<!--[if IE]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
@@ -39,7 +40,7 @@
 			<div id="content">
 				<img id="jollygoat" src="images/jollygoat.png" alt="The Jolly Goat">
 				<h1>Jolly Goat</h1>
-				<h2>Crafting your web presence with a smile.</h2>
+				<h2 class="wow slideInLeft">Crafting your web presence with a  </h2><h2 class="smile wow bounceIn" data-wow-delay="1s"> smile</h2>
 			</div>
 		</div>
 	</div>
@@ -50,12 +51,12 @@
 				<h1>Our Team</h1>
 				<div class="row clearfix" id="web1">
 					<div class="span-one-half">
-						<img class="jusnjer" src="images/jus.png" alt="Justin">
-						<h2 class="namelink"><a href="http://andersun.com">Justin Andersun</a></h2>
+						<img class="jusnjer wow slideInLeft" src="images/jus.png" alt="Justin">
+						<h2 class="namelink wow slideInLeft"><a href="http://andersun.com">Justin Andersun</a></h2>
 					</div>
 					<div class="span-one-half">
-						<img class="jusnjer" src="images/jer.png" alt="Jeremy">
-						<h2 class="namelink"><a href="http://jeremywdowik.com">Jeremy Wdowik</a></h2>
+						<img class="jusnjer wow slideInRight" src="images/jer.png" alt="Jeremy">
+						<h2 class="namelink wow slideInRight"><a href="http://jeremywdowik.com">Jeremy Wdowik</a></h2>
 					</div>
 				</div>
 			</div>
@@ -66,12 +67,13 @@
 		<div class="container clearfix">
 			<div id="content" class="grid_12">
 				<h1>Work</h1>
-				<h2>We can satisfy all of your web needs.</h2>
-				<h3>Beautiful Layouts</h3>
-				<h3>Responsive Design</h3>
-				<h3>Seamless Backend Development</h3>
-				<h3>Search Engine Optimization</h3>
-				<h3>Social Media &amp; Marketing</h3>
+				<h2 class="wow slideInLeft">We can satisfy all of your web needs.</h2>
+				<br /><br /><br />
+				<h3 class="wow flipInX">Beautiful Layouts</h3>
+				<h3 class="wow rollIn" data-wow-duration="2s" data-wow-delay="1s">Responsive Design</h3>
+				<h3 class="wow flipInX">Seamless Backend Development</h3>
+				<h3 class="wow flipInX">Search Engine Optimization</h3>
+				<h3 class="wow flipInX">Social Media &amp; Marketing</h3>
 			</div>
 		</div>
 	</div>
@@ -102,7 +104,13 @@
 	<script type="text/javascript" src="js/jquery.stellar.min.js"></script>
 	<script type="text/javascript" src="js/waypoints.min.js"></script>
 	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script src="js/wow.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 	<script type="text/javascript" src="js/scripts.js"></script>
+
+
 
 </body>
 </html>
