@@ -271,10 +271,7 @@ textarea{
 	text-align:center;
 }
 
-#thankYou {
-	display: none;
-
-}
+#thankYou {	display: none; }
 
 #thankYou p {
 	color: #4DB6C4;
