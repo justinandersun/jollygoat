@@ -366,6 +366,10 @@ footer{
 	#slide4 h2{
 		line-height:1em;
 	}
+
+	[class*="span"]{
+		float:none;
+	}
 }
 
 
