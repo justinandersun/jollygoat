@@ -79,7 +79,7 @@ nav{
 .slide{
 	background-attachment:fixed;
 	width:100%;
-	height:auto;
+	height:100vh;
 	position:relative;
 	padding:70px 0;
 }
@@ -94,9 +94,8 @@ nav{
 }
 #slide1 h1{
 	font-size:4em;
-	font-weight:700;
-	letter-spacing:-0.05em;
 	line-height:0em;
+	font-family: 'Permanent Marker', cursive;
 }
 #slide1 h2{
 	font-size:1.9em;
