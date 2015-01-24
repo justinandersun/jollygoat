@@ -14,9 +14,9 @@ function clean_string($string) {
   return str_replace($bad,"",$string);
 }
 
-$email_message .= "name: ".clean_string($name)."\n";
-$email_message .= "email: ".clean_string($email)."\n";
-$email_message .= "message: ".clean_string($message)."\n";
+$email_message .= clean_string($message)."\n";
+$email_message .= "\n"."Sincerely,"."\n".clean_string($name)."\n";
+$email_message .= clean_string($email)."\n";
 
 $headers = 'From: '.$name."\r\n".
 'Reply-To: '.$email."\r\n" .
