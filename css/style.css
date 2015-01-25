@@ -464,4 +464,8 @@ footer {
 	footer {
 		font-size:0.9em;
 	}
+
+	#thestory {
+		text-align: center;
+	}
 }
