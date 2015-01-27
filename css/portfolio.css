@@ -101,6 +101,8 @@
 
 .og-fullimg {
 	text-align: center;
+	height: 90%;
+	margin-top: -1em;
 }
 
 .og-fullimg img {
