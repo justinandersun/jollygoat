@@ -1,6 +1,6 @@
 <?php
 $email_to = "justinandersun@gmail.com";
-$email_subject = "Message from Jolly Goat";
+$email_subject = "Holler from Jolly Goat";
 
 $name = $_POST['name'];
 $email = $_POST['email'];
@@ -21,5 +21,5 @@ $email_message .= clean_string($email)."\n";
 $headers = 'From: '.$name."\r\n".
 'Reply-To: '.$email."\r\n" .
 'X-Mailer: PHP/'.phpversion();
-@mail($email_to, $email_subject, $email_message, $headers);  
+@mail($email_to, $email_subject, $email_message, $headers);
 ?>
