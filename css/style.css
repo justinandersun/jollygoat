@@ -437,7 +437,14 @@ footer {
 	}
 	#slide1 h1 {
 		line-height:1em;
-		font-size: 7em;
+		font-size: 5em;
+		margin: 0;
+		margin-bottom: 1em;
+	}
+
+	#jollygoat {
+		width: 50%;
+		margin-top: 2em;
 	}
 	#slide1 h2 {
 		line-height:1em;
